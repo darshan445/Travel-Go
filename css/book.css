@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.form{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+input{
+    border: 2px solid black;
+    padding:5px 70px;
+    text-align: center;
+    display:block;
+    margin:15px 0px;
+}
+.btn{
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    border-radius:10px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+.btn:hover{
+    background-color: aqua;
+    color: rgb(61, 20, 20);
+}
