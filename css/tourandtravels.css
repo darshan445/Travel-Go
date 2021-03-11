@@ -1,0 +1,336 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+    background-color: black;
+    position: sticky;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+/* left navigation */
+.left{
+    float: left;
+}
+.left ul{
+    list-style: none;
+    padding: 1em 3em;
+}
+.left ul li{  
+    display: inline-block;
+}
+.left ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #cc003d;
+    font-size:30px;
+    padding: 8px 16px;
+}
+/* center navigation */
+.center{
+    margin-left:15%;
+    float:left;
+}
+.center ul{
+    list-style: none;
+    padding: 1em 3em;
+}
+.center ul li{
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #6d4db8;
+}
+.center ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#12e234;
+    font-size: 20px;  
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #173545;
+    border: 1px solid black;
+}
+/* this is center navigation hover */
+.center ul li a:hover{
+    color: white;
+    border: 1px solid #dbbf1f;
+    background-color: #e8910e;
+    transition-duration: 0.5s;
+    border-radius:8px;
+}
+/* right navigation */
+.right{
+    float:right;
+}
+.right ul{
+    list-style: none;
+    padding: 1em 3em;
+}
+.right ul li{
+    border-radius: 8px;
+    display: inline-block;
+}
+.right ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#12e234;
+    font-size: 20px;  
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #173545;
+    border: 1px solid black;
+}
+
+/* this is right navigation hover */
+.right ul li a:hover{
+    color: white;
+    border: 1px solid #dbbf1f;
+    background-color: #19b0cf;
+    transition-duration: 0.5s;
+}
+/* this is home section content */
+.content{
+    background-image:url(background.jpg);
+    background-size: cover;
+    height:800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* this is home section button*/
+.button a{
+    text-decoration:none;
+    top:50%;
+    left:50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%,-10%);
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+    font-size: 35px;
+    color:wheat;
+    background-color: #173545;
+}
+/* this is home section button hover */
+.button a:hover{
+    color: white;
+    background-color: green;
+    transition: 0.5s;
+   }
+   /* this is explore word css */
+#explore{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-45%,-300%);
+    font-size: 35px;
+    color: rgb(224, 16, 113);
+}
+
+#quotes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-45%,-200%);
+    font-size:20px;
+    color:rgb(109, 0, 136);
+}
+/* popular places */
+
+
+/* this is common box css */
+.boxes{    
+    cursor: pointer;
+    background:rgb(155, 127, 182);
+    background-size: cover;
+    width: 100%;
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#purchase{
+    margin-left:1%;
+    font-size: 35px;
+    color: rgb(0, 255, 213);
+    padding-top:3%;
+}
+/* this is box1 css */
+.b1{
+    margin-top:4%;
+    margin-left: 20px;
+    position: absolute;
+    width: 300px;
+    height:200px;
+}
+/* this is box2 css */
+.b2{
+    margin-top:4%;
+    margin-left:40%;
+    position: absolute;
+    width: 300px;
+    height:200px;
+}
+/* this is box3 css */
+.b3{
+    margin-top:4%;
+    margin-left:79%;
+    position: absolute;
+    width: 300px;
+    height:200px;
+}
+/* this is box4 css */
+.b4
+{
+    margin-top:25%;
+    margin-left: 20px;
+    position: absolute;
+    width: 300px;
+    height:200px;
+ }
+/* this is box5 css */
+.b5
+{
+    margin-top:25%;
+    margin-left: 40%;
+    position: absolute;
+    width: 300px;
+    height:200px;
+
+}
+/* this is box6 css */
+.b6
+{
+    margin-top:25%;
+    margin-left:79%;
+    position: absolute;
+    width: 300px;
+    height:200px;
+}
+/* this is for boxes heading css*/
+h1{
+    padding-bottom:5%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+}
+
+/* boxes book now button */
+.buy a{
+    text-decoration: none;
+    background-color: #173545;
+    color: rgb(30, 202, 174);
+    font-size: 20px;
+    margin-left:100px;
+    padding-top:7%;
+    border-radius:8px;
+    padding: 10px 10px;
+}
+/* boxes book now button hover */
+.buy a:hover{
+    background-color: #e8910e;
+    color: white;
+    transition: 0.5s;
+}
+
+/* contact us css */
+.contact{
+    transform: translate(50%,-7%); 
+}
+form{
+    background-color: #6d4db8;
+    height:700px;
+}
+.contact,input{
+    border-color: red;
+    border-radius: 8px;
+    outline: none;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    width: 60%;
+    height:20%;
+    display: block;
+}
+.form{
+    font-size:40px;
+    color:rgb(233, 192, 13);
+    text-align: center;
+    padding-top:5%;
+}
+.name{
+    padding-top:2%;
+    font-size: 20px;
+    color: #ffffff;
+}
+.textarea{
+    outline: none;
+    border: 2px solid black;
+    margin-top:2%;
+    width:570px;
+    height:200px;
+    border-radius: 8px;
+    border-color: red;
+}
+.submit{
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgb(255, 116, 2);
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    margin-left: 28%;
+}
+.submit:hover{
+    background-color: #19b0cf;
+    transition: 0.5s;
+}
+
+
+/* this is about us section */
+#Aboutus{
+    height:450px;
+    background-color: #3f3442;
+}
+
+/* this is about us heading */
+h2{
+    color: white;
+    padding-top:3%;
+    font-size: 35px;
+    text-align: center;
+}   
+
+/* detail of about us css */
+.details{
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    margin-left:28%;
+    width:700px;
+    height:200px;
+    line-height:30px;
+    text-align: justify;
+}
+.thank{
+    margin-left:40%;
+    font-size: 30px;
+    color: #f89500;
+}
